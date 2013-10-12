@@ -18,6 +18,8 @@ Install
 6. sudo cp motion.conf /etc/motion/
 7. sudo cp zalert.py zemail.py zupload.py /etc/motion/
 8. sudo /etc/init.d/motion restart
+9. To receive SMS text message alert, set up email forwarding to your mobile SMS email address like 408123456@vtext.com for Verizon.
+10. To view real-time video streaming, set up your router's port forwarding to your Raspberry Pi's ip address port 8080.
 
 Testing
 =======
