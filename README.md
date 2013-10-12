@@ -14,7 +14,7 @@ Install
 2. Download and install motion.
 3. Download Google Drive app on your mobile device
 4. Create folder named 'motion in your Google Drive
-5. Change USERNAME, PASSWORD, FROM_EMAIL and TO_EMAILS in zalert.py
+5. Change USERNAME, PASSWORD, FROM_EMAIL and TO_EMAILS in zconf.py
 6. sudo cp motion.conf /etc/motion/
 7. sudo cp zalert.py zemail.py zupload.py /etc/motion/
 8. sudo /etc/init.d/motion restart
